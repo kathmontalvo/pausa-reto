@@ -1,0 +1,626 @@
+.header-interno {
+    background: url("../../img/slider-dark.png") center no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+
+    .header-interno .title-btn {
+        text-align: center;
+        margin-bottom: 45px
+    }
+
+}
+
+.header-interno .title-btn div {
+    background: rgba(34, 34, 33, 0.8);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 29px;
+}
+
+@media (max-width: 480px) {
+    .header-interno .title-btn div {
+        margin-left: 10px
+    }
+}
+
+.header-interno .title-btn div a {
+    color: #fff;
+    background: #467b31;
+    padding: 14px 20px 14px 10px;
+    float: left;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.header-interno .title-btn div a:after {
+    content: "";
+    border-top: 24px solid transparent;
+    border-right: 28px solid #467b31;
+    border-bottom: 24px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -28px
+}
+
+@media (max-width: 767px) {
+    .header-interno .title-btn div a {
+        font-size: 12px;
+        padding: 10px 14px 7px 10px
+    }
+
+    .header-interno .title-btn div a:after {
+        border-top: 17px solid transparent;
+        border-right: 18px solid #467b31;
+        border-bottom: 17px solid transparent;
+        left: -17px
+    }
+}
+
+@media (max-width: 480px) {
+    .header-interno .title-btn div a {
+        font-size: 12px
+    }
+}
+
+.header-interno .title-btn div span {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #f5b400;
+    margin-left: 20px;
+}
+
+.header-interno .title-btn div span:before {
+    content: "";
+    border-top: 24px solid transparent;
+    border-left: 28px solid rgba(34, 34, 33, 0.8);
+    border-bottom: 24px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -28px
+}
+
+@media (max-width: 767px) {
+    .header-interno .title-btn div span {
+        font-size: 16px;
+        display: inline-block;
+        padding-top: 5px;
+        padding-right: 10px;
+        margin-left: 50px
+    }
+
+    .header-interno .title-btn div span:before {
+        border-top: 16px solid transparent;
+        border-left: 18px solid rgba(34, 34, 33, 0.8);
+        border-bottom: 16px solid transparent;
+        right: -17px
+    }
+}
+
+@media (max-width: 480px) {
+    .header-interno .title-btn div span {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 14px;
+        margin-left: 12px
+    }
+}
+
+.contenedor-contenido .title-registro {
+    color: #467b31;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0
+}
+
+.contenedor-contenido .linea {
+    width: 100%;
+    height: 2px;
+    background: #467b31
+}
+
+.contenedor-contenido .barra {
+    display: flex;
+}
+
+.contenedor-contenido .barra .item-list {
+    flex: auto;
+    font-size: 13px;
+    font-weight: 700;
+    color: #467b31;
+    position: relative;
+    padding-bottom: 8px;
+    width: 20%;
+}
+
+.contenedor-contenido .barra .item-list.active {
+    color: #f5b400;
+}
+
+.contenedor-contenido .barra .item-list.active:before {
+    background: #f5b400
+}
+
+.contenedor-contenido .barra .item-list:before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #467b31;
+    position: absolute;
+    bottom: -8px
+}
+
+.contenedor-contenido .barra .item-list:nth-child(4) {
+    text-align: right
+}
+
+.contenedor-contenido .barra .item-list:nth-child(2), .contenedor-contenido .barra .item-list:nth-child(3) {
+    text-align: center;
+}
+
+.contenedor-contenido .barra .item-list:nth-child(2):before, .contenedor-contenido .barra .item-list:nth-child(3):before {
+    left: 48%;
+}
+
+@media (max-width: 767px) {
+    .contenedor-contenido .barra .item-list:nth-child(2):before, .contenedor-contenido .barra .item-list:nth-child(3):before {
+        left: 38%
+    }
+}
+
+.contenedor-contenido .barra .item-list:nth-child(4):before {
+    right: 0
+}
+
+.section-login {
+    background: #f6f8f4;
+}
+
+.section-login .box-linkregistrar {
+    padding: 30px 60px;
+    background: #fff;
+    box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    margin: 50px 0;
+}
+
+.section-login .box-linkregistrar > .row:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.section-login .box-linkregistrar h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Filson Pro", sans-serif;
+    color: #4A4A4A;
+    margin-top: 0;
+    margin-bottom: 30px
+}
+
+.section-login .box-linkregistrar .box-social a {
+    display: block;
+    padding: 15px 20px;
+    margin: 0 auto 15px;
+    border-radius: 3px;
+    text-align: center;
+    color: #4A4A4A;
+    font-size: 15px;
+    max-width: 200px;
+    border: 2px solid;
+    font-weight: 600;
+}
+
+.section-login .box-linkregistrar .box-social a.btn-face {
+    border-color: #3e5996;
+    color: #3e5996;
+}
+
+.section-login .box-linkregistrar .box-social a.btn-google {
+    border-color: #d52a36;
+    color: #d52a36;
+}
+
+.section-login .box-linkregistrar .box-social a i {
+    font-size: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.section-login .box-linkregistrar form label {
+    color: #4A4A4A;
+    font-family: "Filson Pro", sans-serif;
+    font-size: 12px;
+}
+
+.section-login .box-linkregistrar form label.error {
+    color: #f00;
+    font-size: 10px
+}
+
+.section-login .box-linkregistrar form .form-control {
+    height: 45px
+}
+
+.section-login .box-linkregistrar form .form-control:focus {
+    outline: 0;
+    border-color: #ddd
+}
+
+.section-login .box-linkregistrar form .btn {
+    width: 100%;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #FF9800
+}
+
+.section-login .box-linkregistrar form p {
+    color: #FF9800;
+    margin-top: 10px;
+}
+
+.section-login .box-linkregistrar form p .register {
+    color: #FF9800;
+    text-decoration: underline;
+}
+
+.section-login .box-linkregistrar form p a {
+    color: #4A4A4A;
+    font-weight: 600;
+    padding: 0;
+    display: inline-block;
+    font-size: 16px
+}
+
+.section-login .hr-spacio {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .section-login .box-linkregistrar {
+        padding: 25px 15px 0;
+        margin-top: 0;
+    }
+
+    .section-login .box-linkregistrar form {
+        padding: 0 15px;
+    }
+
+    .section-login .box-linkregistrar > .row:first-child {
+        display: block;
+    }
+    .section-login .hr-spacio {
+        display: block
+    }
+}
+
+.list-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.list-menu li {
+    background: #efefef;
+}
+
+.list-menu li a {
+    padding: 15px 20px;
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+}
+
+.list-menu li a i {
+    color: #000
+}
+
+.list-menu li.active, .list-menu li:hover {
+    background: #ddd;
+}
+
+.list-menu li.active a, .list-menu li:hover a {
+    text-decoration: none
+}
+
+.list-menu li:nth-child(1) a i {
+    vertical-align: middle;
+    font-weight: 700
+}
+
+.section-reserva h3 {
+    font-size: 19px;
+    color: #FF9800;
+    font-weight: 600;
+    vertical-align: middle;
+    margin-bottom: 25px;
+}
+
+.section-reserva h3 i {
+    font-size: 14px;
+    color: #FF9800
+}
+
+.section-reserva .table thead tr th {
+    background: #FF9800;
+    color: #fff;
+    text-align: center
+}
+
+.section-reserva .table tbody tr {
+    background: #f0f0f0;
+}
+
+.section-reserva .table tbody tr td {
+    vertical-align: middle;
+    border-left: 1px solid #fff;
+    text-align: center;
+}
+
+.section-reserva .table tbody tr td img {
+    height: 29px
+}
+
+.section-reserva .table tbody tr td:nth-child(1) {
+    border-left: 0
+}
+
+.section-reserva .table tbody tr td:nth-child(2) {
+    text-align: left
+}
+
+.section-reserva .table tbody tr:nth-child(odd) {
+    background: #e0e0e0
+}
+
+.section-reserva .pagination {
+    margin: 0;
+}
+
+.section-reserva .pagination li a {
+    color: #FF9800;
+    border-color: #FF9800
+}
+
+.section-reserva .pagination li.active a, .section-reserva .pagination li:hover a {
+    color: #fff;
+    background: #FF9800
+}
+
+.section-detallereserva h3 {
+    font-size: 19px;
+    color: #FF9800;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.section-detallereserva h3 i {
+    font-size: 14px;
+    color: #FF9800
+}
+
+.section-detallereserva form {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.section-detallereserva form .form-group {
+    border-bottom: 1px dashed #ddd;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.section-detallereserva form .form-group:nth-child(9) {
+    border-bottom: 0
+}
+
+.section-detallereserva form .form-group .control-label {
+    text-align: left;
+    margin-bottom: 0;
+    color: #FF9800
+}
+
+.section-detallereserva form h3 {
+    color: #FF9800
+}
+
+.section-detallereserva form .btn {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.section-perfil {
+    padding-left: 20px;
+}
+
+.section-perfil h3 {
+    font-size: 19px;
+    color: #FF9800;
+    font-weight: 600;
+    vertical-align: middle;
+    font-family: "Filson Pro", sans-serif;
+
+}
+
+.section-perfil h3 i {
+    font-size: 14px;
+    color: #FF9800
+}
+
+.section-perfil form {
+    padding-top: 20px;
+}
+
+.section-perfil form label {
+    font-weight: 400;
+    color: #4A4A4A;
+    display: block;
+    font-size: 12px;
+    font-family: "Filson Pro", sans-serif;
+    margin-bottom: 0
+}
+
+.section-perfil form input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+.section-perfil form input:focus {
+    outline: none
+}
+
+.section-perfil form .btn {
+    margin-top: 15px;
+    background: #FF9800;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 40px;
+}
+
+.section-perfil form .btn:hover {
+    background: #FF9800
+}
+
+.section-perfil .avatar-perfil {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #d2dacf;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-perfil .avatar-perfil img {
+    width: 100%;
+    height: 100%
+}
+
+.section-perfil .avatar-perfil .imput-file {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.section-perfil .avatar-perfil .imput-file p {
+    margin: 0;
+    color: #FF9800;
+    text-shadow: 0 0 4px #fff;
+    font-weight: 400
+}
+
+.section-perfil .avatar-perfil .imput-file input {
+    position: absolute;
+    top: -134px;
+    opacity: 0;
+    width: 170px;
+    height: 170px;
+    cursor: pointer
+}
+
+@media (max-width: 991px) {
+    .section-perfil .avatar-perfil {
+        margin: 0 auto
+    }
+}
+
+.alert-responsive {
+    display: none;
+    color: #f00;
+}
+
+@media (max-width: 767px) {
+    .alert-responsive {
+        display: block
+    }
+}
+
+.checkbox {
+    padding: 0 !important
+}
+
+a.sinestilo {
+    padding: 0 !important;
+    color: #FF9800 !important
+}
+
+.header-interno .titulo-pck {
+    font-family: "Filson Pro", sans-serif;
+    font-size: 7rem;
+    text-align: center;
+    color: #fff;
+    line-height: 77px;
+    font-weight: 700;
+}
+
+.header-interno .titulo-pck p {
+    display: inline-block;
+}
+
+.header-interno .titulo-pck img {
+    max-width: 100%;
+    height: 30px;
+    margin: 0 10px -75px;
+}
+
+@media (max-width: 991px) {
+    .header-interno .titulo-pck label {
+        font-size: 25px;
+        display: block;
+        line-height: 1;
+    }
+
+    .header-interno .titulo-pck p,
+    .header-interno .titulo-pck span {
+        display: block;
+        line-height: 0.8;
+    }
+    .header-interno .titulo-pck span:last-child {
+        line-height: 1.2;
+    }
+
+    .header-interno .titulo-pck img {
+        margin: 0;
+        height: 25px;
+    }
+
+    .header-interno .titulo-pck .title-rutes {
+        font-size: 6rem;
+        line-height: 1.3;
+    }
+
+    .header-interno .titulo-pck.contact-title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-interno .titulo-pck .title-rutes {
+        font-size: 4.5rem;
+    }
+    .header-interno .titulo-pck  {
+        font-size: 5rem;
+    }
+}

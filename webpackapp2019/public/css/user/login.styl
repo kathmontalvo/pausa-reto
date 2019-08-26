@@ -1,0 +1,351 @@
+.header-interno
+	background url('../../img/slider.jpg')bottom no-repeat
+	background-size cover
+	padding 220px 0 50px
+	position relative
+	box-shadow 0px 0px 80px #000
+	.title-btn
+		@media (max-width: 780px)
+			text-align center
+			margin-bottom 45px
+		div
+			background rgba(34, 34, 33, 0.8)
+			display inline-block
+			vertical-align middle
+			position relative
+			margin-left 29px
+			@media (max-width: 480px)
+				margin-left 10px
+			a
+				color #fff
+				background #467b31
+				padding 14px 20px 14px 10px
+				float left
+				font-weight 700
+				font-size 13px
+				&:after
+					content ""
+					border-top 24px solid transparent
+					border-right 28px solid #467b31
+					border-bottom 24px solid transparent
+					position absolute
+					top 0
+					left -28px
+				@media (max-width: 780px)
+					font-size 12px
+					padding 10px 14px 7px 10px
+					&:after
+						border-top 17px solid transparent
+						border-right 18px solid #467b31
+						border-bottom 17px solid transparent
+						left -17px
+				@media (max-width: 480px)
+					font-size 12px
+			span
+				font-size 30px
+				text-align center
+				font-weight 700
+				color #f5b400
+				margin-left 20px
+				&:before
+					content ""
+					border-top 24px solid transparent
+					border-left 28px solid rgba(34, 34, 33, 0.8)
+					border-bottom 24px solid transparent
+					position absolute
+					top 0
+					right -28px
+				@media (max-width: 780px)
+					font-size 16px
+					display inline-block
+					padding-top 5px
+					padding-right 10px
+					margin-left  50px
+					&:before
+						border-top 16px solid transparent
+						border-left 18px solid rgba(34, 34, 33, 0.8)
+						border-bottom 16px solid transparent
+						right -17px
+				@media (max-width: 480px)
+					padding-top 5px
+					padding-bottom 5px
+					font-size 14px
+					margin-left 12px
+.contenedor-contenido
+	.title-registro
+		color #467b31
+		font-size 20px
+		font-weight 700
+		padding 20px 0px
+	.linea
+		width 100%
+		height 2px
+		background #467b31
+	.barra
+		display flex
+		.item-list
+			flex auto
+			font-size 13px
+			font-weight 700
+			color #467b31
+			position relative
+			padding-bottom 8px
+			width 20%
+			&.active
+				color #f5b400
+				&:before
+					background #f5b400
+			&:before
+				content ""
+				width 17px
+				height 17px
+				border-radius 50%
+				background #467b31
+				position absolute
+				bottom -8px
+			&:nth-child(4)
+				text-align right
+			&:nth-child(2),
+			&:nth-child(3)
+				text-align center
+				&:before
+					left 48%
+					@media (max-width: 780px)
+						left 38%
+		.item-list:nth-child(4):before
+			right 0px
+.section-login
+	background #f6f8f4
+	.box-linkregistrar
+		background #fff
+		padding 50px 20px 30px
+		border 1px solid #ddd
+		border-radius 10px
+		margin 50px 0px
+		h3
+			text-align center
+			font-size 20px
+			font-weight 700
+			color #000
+			margin-top 0px
+			margin-bottom 30px
+		a
+			display block
+			padding 20px 20px
+			margin 0px auto 10px
+			text-align center
+			color #fff
+			font-size 15px
+			max-width 200px
+			&.btn-face
+				background #3e5996
+			&.btn-google
+				background #d52a36
+			i
+				font-size 25px
+				vertical-align middle
+		form
+			label
+				color #467b31
+				font-weight 400
+				&.error
+					color #f00
+					font-size 10px
+			.form-control
+				height 45px
+			.form-control:focus
+				outline 0px
+				border-color #ddd
+			.btn
+				width 100%
+				padding 15px 30px
+				text-align center
+				font-size 16px
+				font-weight 700
+				color #fff
+				background #3e6e2c
+			p
+				color #467b31
+				margin-top 10px
+				a
+					color #3e6e2c
+					font-weight 600
+					padding 0px
+					display inline-block
+					font-size 16px
+		div
+			>div
+				padding 10px 28px
+	.hr-spacio
+		display none
+		@media(max-width 970px)
+			display block
+.list-menu
+	list-style none
+	padding 0px
+	li
+		background #efefef
+		a
+			padding 15px 20px
+			color #467b31
+			font-size 16px
+			font-weight 700
+			display block
+			i
+				color #000
+		&.active, &:hover
+			background #ddd
+			a
+				text-decoration none
+		&:nth-child(1)
+			a 
+				i
+					vertical-align middle
+					font-weight 700
+.section-reserva
+	h3
+		font-size 19px
+		color #467b31
+		font-weight 600
+		vertical-align middle
+		margin-bottom 25px
+		i
+			font-size 14px
+			color #dd4617
+	.table
+		thead
+			tr
+				th
+					background #dd4617
+					color #fff
+					text-align center
+		tbody
+			tr
+				background #fcece7
+				td
+					vertical-align middle
+					border-left 1px solid #fff
+					text-align center
+					img
+						height 29px
+					&:nth-child(1)
+						border-left 0px
+					&:nth-child(2)
+						text-align left
+				&:nth-child(odd)
+					background #e5e5e5
+	.pagination
+		margin 0px
+		li
+			a
+				color #dd4617
+				border-color #dd4617
+			&.active,&:hover
+				a
+					color #fff
+					background #dd4617
+.section-detallereserva
+	h3
+		font-size 19px
+		color #467b31
+		font-weight 600
+		vertical-align middle
+		i
+			font-size 14px
+			color #dd4617
+	form
+		border 1px solid #ddd
+		border-radius 5px
+		padding 50px
+		.form-group
+			border-bottom 1px dashed #ddd
+			display inline-block
+			width 100%
+			margin 0px
+			padding 10px 0px
+			&:nth-child(9)
+				border-bottom 0px
+			.control-label
+				text-align left
+				margin-bottom 0px
+				color #467b31
+		h3
+			color #dd4617
+		.btn
+			font-size 20px
+			font-weight 700
+.section-perfil
+	padding-left 20px
+	h3
+		font-size 19px
+		color #467b31
+		font-weight 600
+		vertical-align middle
+		i
+			font-size 14px
+			color #dd4617
+	form
+		padding-top 20px
+		label
+			font-weight 400
+			color #467b31
+			display block
+			margin-bottom 0px
+		input
+			display block
+			width 100%
+			padding 15px
+			margin-bottom 20px
+			border-radius 5px
+			border 2px solid #ddd
+			&:focus
+				outline none
+		.btn
+			margin-top 15px
+			background #2ba03e
+			color #fff
+			font-size 20px
+			font-weight 400
+			padding 5px 40px
+			&:hover
+				background #467b31
+	.avatar-perfil
+		width 170px
+		height 170px
+		border 4px solid #d2dacf
+		border-radius 50%
+		position relative
+		overflow hidden
+		img
+			width 100%
+			height 100%
+		.imput-file
+			position absolute
+			text-align center
+			bottom 10px
+			width 100%
+			background rgba(255,255,255,0.5)
+			p 
+				margin 0px
+				color #2ba03e
+				text-shadow 0px 0px 4px #fff
+				font-weight 400
+			input
+				position absolute
+				top -134px
+				opacity 0
+				width 170px
+				height 170px
+				cursor pointer
+		@media(max-width: 991px)
+			margin 0px auto
+.alert-responsive
+	display none
+	color red
+	@media(max-width: 767px)
+		display block
+.checkbox
+	padding 0px !important
+a.sinestilo
+	padding 0px !important
+	color #467b31 !important

@@ -1,0 +1,588 @@
+.header-interno
+	background url('../img/slider.jpg')center no-repeat
+	background-size cover
+	padding 220px 0 50px
+	position relative
+	.title-btn
+		@media (max-width: 780px)
+			text-align center
+			margin-bottom 45px
+		div
+			display inline-block
+			vertical-align middle
+			position relative
+			margin-left 29px
+			padding-left 10px
+			@media (max-width: 480px)
+				margin-left 0px
+			img
+				border-radius 50%
+				border 2px solid #ddd
+				position absolute
+				top -27px
+				left 0px
+				box-shadow 0px 0px 9px #222
+				@media (max-width: 780px)
+					top -15px
+					width 80px
+			a
+				color #fff
+				background #467b31
+				padding 14px 40px 14px 10px
+				float left
+				font-weight 700
+				font-size 13px
+				@media (max-width: 780px)
+					font-size 12px
+					padding 10px 40px 7px 10px
+				@media (max-width: 480px)
+					font-size 12px
+					padding 10px 40px 7px 2px
+			span
+				font-size 50px
+				font-weight 700
+				line-height 60px
+				color #fff
+				text-align left
+				font-family "Smoothie Shoppe"
+				text-shadow 0px 0px 13px #000
+				&.min-titulo
+					font-size 20px
+					display block
+					margin-top -16px
+					font-family "Microsoft Tai Le"
+					@media (max-width: 480px)
+						font-size 20px
+						margin-top -8px
+				@media (max-width: 780px)
+					padding-right 10px
+					&:before
+						display none
+				@media (max-width: 480px)
+					font-size 50px
+					display block
+	.btn
+		padding 8px 35px
+		font-size 20px
+		font-weight 700
+.contenedor-contenido
+	padding 2em 0px
+	@media (max-width: 780px)
+		.container
+			padding 0px
+	.slider-page
+		background #dfe5dd
+		@media (max-width: 780px)
+			background #fff
+			padding-bottom 20px
+			.row
+				margin 0px
+		.flex-packapp
+			display flex
+			align-items center
+			@media (max-width: 992px)
+				display block
+		.col-md-4
+			padding-right 0px
+			@media (max-width: 780px)
+				padding 0px
+			>ul
+				background #bfc3bd
+				padding 0px
+				margin 0px
+				li
+					list-style none
+					padding 20px 0px 20px 65px
+					position relative
+					@media (max-width: 780px)
+						display none
+						&:nth-child(1)
+							display block
+							background #efefef
+					i
+						position absolute
+						left 20px
+						top 27%
+						font-size 36px
+						color #000
+					p
+						font-size 13px
+						color #000
+						margin 0px
+						line-height: 15px;
+						span
+							display block
+							font-weight 700
+							font-size 15px
+				li
+					&:nth-child(even)
+						background #efefef
+			.incluye
+				background #bfc3bd
+				font-weight 700
+				padding 15px 10px 14px 27px
+				p
+					color #467b31
+					margin-bottom 2px
+					font-size 17px
+				>ul
+					margin 0px
+					padding 0px
+					li
+						list-style none
+						display inline-block
+						font-size 11px
+						color #000
+						vertical-align top
+						position relative
+						padding-left 32px
+						line-height 10px
+						padding-top 8px
+						max-width 115px
+						margin-bottom 15px
+						@media (max-width: 780px)
+							    margin-bottom 13px
+						i
+							position absolute
+							background #467b31
+							color #fff
+							line-height 0px
+							padding 14px
+							font-size 15px
+							width 10px
+							border-radius 50%
+							top 0px
+							left 0px
+							&:before
+								margin-left -8px
+		.col-md-8
+			padding-left 0px
+			position relative
+			@media (max-width: 780px)
+				padding 0
+			.slider-imagenes
+				.item
+					max-height 422px
+			.slider-videos
+				display none
+				.item-video
+					height 435px
+					@media (max-width: 480px)
+						height 320px
+			.owl-carousel
+				.owl-prev
+					position absolute
+					top 47%
+					left 20px
+				.owl-next
+					position absolute
+					top 47%
+					right 20px
+				.owl-dots
+					text-align center
+					margin-top -50px
+					position relative
+					@media (max-width: 780px)
+						margin-top -28px
+					.owl-dot
+						display inline-block
+						zoom 1
+						span
+							width 10px
+							height 10px
+							margin 5px 7px
+							background #db4617
+							display block
+							-webkit-backface-visibility visible
+							transition opacity .2s ease
+							border-radius 30px
+						&.active,&:hover 
+							span
+								background #fff
+			.botones
+				position absolute
+				top 25px
+				right 0px
+				z-index 1
+				span
+					background #fff
+					color #dd4617
+					display block
+					font-size 25px
+					line-height 0px
+					margin-bottom 5px
+					padding 5px
+					position relative
+					border-radius 0px 5px 5px 0px
+					zoom 0.9
+					transition: ease-out;
+					&.active
+						color #fff
+						background #dd4617
+						zoom 1
+						&:before
+							border-right 17px solid #dd4617
+					&:before
+						position absolute
+						content ""
+						border-top 18px solid transparent
+						border-right 17px solid #fff
+						border-bottom 17px solid transparent
+						display block
+						top 0px
+						left -16px
+					&:hover
+						cursor pointer
+						color #fff
+						background #dd4617
+						&:before
+							border-right 17px solid #dd4617
+					
+			.col-md-6
+				text-align center
+				.btn
+					font-size 20px
+					font-weight 700
+					padding 8px 35px
+					margin-top 6%
+					@media (max-width: 780px)
+						margin-top 0px
+				.precio
+					font-size 32px
+					color #d14216
+					font-weight 700
+					position relative
+					padding-left 54px
+					line-height 25px
+					display inline-block
+					text-align left
+					margin-top 4%
+					i
+						position absolute
+						top 3px
+						left 0px
+						font-size 56px
+					>span
+						font-size 15px
+					p
+						span
+							font-size 25px
+#contenedor-dondeir
+	.itinerario
+		padding 50px 80px
+		background url(../img/bg2.jpg)center
+		background-size cover
+		border-radius 20px
+		border 1px solid #ddd
+		margin-bottom 20px
+		position relative
+		&:before
+			content ""
+			background #467b31
+			width 20px
+			height 5px
+			position absolute
+			top 50px
+			left -10px
+		>h3
+			margin-left -36px
+			@media (max-width: 600px)
+				margin-left 0px
+		h3
+			margin-top 0px
+		@media (max-width: 480px)
+			padding 50px 50px
+		h3
+			color #457b30
+			font-weight 700
+			i
+				color #000
+			
+		ul
+			margin 0px
+			padding 0px
+			li
+				color #000
+				text-align justify
+				list-style none
+				padding-left 15px
+				padding-bottom 5px
+				&:before
+					content "•"
+					color #457b30
+					display inline-block
+					width 15px
+					margin-left -15px
+					font-size 22px
+					line-height 0px
+		.owl-carousel
+				.owl-prev,.owl-next
+					border 2px solid #9b9f9b
+					padding 2px 12px
+					border-radius 50%
+					color #9b9f9b
+					line-height 0px
+					font-size 30px
+					&:hover
+						color #457b30
+						border-color #457b30
+				.owl-prev
+					position absolute
+					top 30%
+					left -50px
+				.owl-next
+					position absolute
+					top 30%
+					right -50px
+	.como-llegar
+		border-radius 20px
+		border 1px solid #ddd
+		margin-bottom 20px
+		padding 20px 40px
+		position relative
+		&:before
+			content ""
+			background #467b31
+			width 20px
+			height 5px
+			position absolute
+			top 50px
+			left -10px
+		h3
+			color #467b31
+			font-weight 700
+		p
+			span
+				font-weight 700
+	.comentarios
+		padding 50px 40px
+		background url(../img/bg3.jpg)center
+		background-size cover
+		border-radius 20px
+		border 1px solid #ddd
+		margin-bottom 20px
+		color #fff
+		position relative
+		&:before
+			content ""
+			background #dd4617
+			width 20px
+			height 5px
+			position absolute
+			top 50px
+			left -10px
+		h3
+			font-weight 700
+		.box-coment
+			background #fff
+			color #000
+			padding 20px 20px 10px
+			margin-bottom 15px
+			border-radius 10px
+			position relative
+			&:before
+				content ""
+				position absolute
+				border-top 18px solid transparent
+				border-right 17px solid #fff
+				border-bottom 17px solid transparent
+				top 13px
+				left -10px
+				
+			h4
+				margin-top: 0px
+				margin-bottom 5px
+				font-weight 700
+				color #467b31
+				font-size 15px
+			p
+				line-height 16px
+				font-size 13px
+		textarea
+			width 100%
+			border-radius 10px
+		.btn
+			font-size 18px
+			font-weight 700
+			padding 8px 35px
+			display inline-block
+			box-shadow 0px 0px 8px #444
+			@media (max-width: 480px)
+				display block
+				width 100%
+		@media (max-width: 480px)
+			.col-xs-offset-2
+				border-top 2px solid #fff
+				padding-top 10px
+				width 100%
+				margin-left 0
+	.atractivos
+		padding 40px 40px
+		background url(../img/bg4.jpg)center
+		background-size cover
+		border-radius 20px
+		border 1px solid #ddd
+		margin-bottom 20px
+		color #fff
+		position relative
+		&:before
+			content ""
+			background #dd4617
+			width 20px
+			height 5px
+			position absolute
+			top 50px
+			left -10px
+		h3
+			font-weight 700
+			margin: 0px 0px 5px
+		span
+			background #e6e6e6
+			color #222
+			padding 10px 10px
+			border-radius 5px
+			display inline-block
+			margin-bottom 5px
+			font-size 12px
+			font-weight 700
+			line-height 19px
+			i
+				color #222
+	.emprendedor
+		border-radius 20px
+		border 1px solid #ddd
+		margin-bottom 20px
+		position relative
+		text-align center
+		padding-bottom 40px
+		.bg-verde
+			background #467b31
+			border-radius 20px 20px 0px 0px
+			padding 50px 0px
+		img
+			margin-top -60px
+			border-radius 50%
+			max-width 128px
+		h3
+			font-weight 700
+			margin: 10px 0px 5px
+			color #467b31
+		p
+			padding 0px 20px
+		a
+			color #e14413
+			font-weight 700
+			text-decoration underline
+	.mapamin
+		border-radius 20px
+		border 1px solid #ddd
+		margin-bottom 20px
+		position relative
+		&:before
+			content ""
+			background #db4619
+			width 20px
+			height 5px
+			position absolute
+			top 50px
+			left -10px
+		h3
+			color #db4619
+			font-weight 700
+			padding 20px 40px 10px
+		a>img
+			width 100%
+		div
+			position relative
+			padding 20px 10px 40px 89px
+			color #000
+			img 
+				width 60px
+				position absolute
+				left 19px
+			h4
+				font-weight 700
+				font-size 15px
+				margin-bottom 5px
+				margin-top 0px
+			p
+				font-size 13px
+				margin-bottom 5px
+			a
+				color #db4619
+				font-weight 700
+				text-decoration underline
+		.lista-item-u
+			padding 0px 20px 20px
+			display none
+			ul
+				list-style none
+				padding 0px
+				li
+					list-style none
+					padding 20px 0 20px 65px
+					position relative
+					border-bottom 1px dashed #dd4617
+					&:last-child
+						border-bottom 0px solid
+					i
+						position absolute
+						left 20px
+						top 27%
+						font-size 36px
+						color #000
+					p
+						font-size 13px
+						color #000
+						margin 0
+						line-height 15px
+						span
+							display block
+							font-weight 700
+							font-size 15px
+			@media (max-width: 480px)
+				display block
+	.contacto-min
+		border-radius 20px
+		margin-bottom 20px
+		padding 8px 40px
+		border 1px solid #ddd
+		position relative
+		&:before
+			content ""
+			background #467b31
+			width 20px
+			height 5px
+			position absolute
+			top 50px
+			left -10px
+		h3
+			color #467b31
+			font-weight 700
+		p
+			span
+				font-weight 700
+		label
+			color #467b31
+			font-weight 400
+		.form-control:focus
+			outline 0px
+			border-color #ddd
+		.btn
+			padding 8px 40px
+			text-align center
+			font-size 14px
+			font-weight bold
+.m-mas-mapa
+	.modal-header
+		padding 0px
+		border-bottom 0px
+		.close
+			margin-top 0
+			position absolute
+			right 4px
+			z-index 999
+			color #000
+			opacity 1
+	img
+		width 100%
